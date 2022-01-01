@@ -1,11 +1,8 @@
 import pywhatkit
-
 try:
-
   pywhatkit.sendwhatmsg("+52xxxxxxxxxx",  
                         "sms",
                         15,34) #the time you want it shipped
-  print("ok")
-  
+  print("ok")  
 except:
   print("not ok")
