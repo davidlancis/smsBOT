@@ -1,7 +1,7 @@
 import pywhatkit
 
 try:
-  # Enviamos el mensaje
+
   pywhatkit.sendwhatmsg("+52xxxxxxxxxx",  
                         "sms",
                         15,34) #the time you want it shipped
